@@ -1,0 +1,188 @@
+/* body{
+  font-family: 'Montserrat';
+} */
+
+html {
+ scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  /* line-height: 1.5rem; */
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.25rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title{
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+
+.img-position{
+  position: relative;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image{
+  width: 60%;
+  margin-left: 50px;
+  position: absolute;
+  margin-right: 30%;
+}
+
+.title-image:hover{
+  transform: rotate(25deg);
+}
+
+/* features */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8712;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #FF4C68;
+}
+
+/* testimonial section */
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8712;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8712;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+
+@media (max-width: 991px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+  }
+}
+
+/* call to action section */
+
+#cta{
+  background-color: #FF4C68;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 5%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer{
+  background-color: #fff;
+
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icon{
+  margin: 20px 10px;
+}
